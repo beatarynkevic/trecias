@@ -18,11 +18,13 @@ public class Trecias {
         int i = -2;
         int j = 10;
 
+
         if (i > 0 && j++ > 100) {
             System.out.println("oj");
         }
         System.out.println(i);
         System.out.println(j);
+
 
         if (i++ < 0 || j++ < 0){
             System.out.println("kazkuris neigiamas");
@@ -36,6 +38,7 @@ public class Trecias {
         } else {
             System.out.println("per didelis");
         }
-    }
 
 }
+
+    }
